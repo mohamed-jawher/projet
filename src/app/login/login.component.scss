@@ -1,0 +1,83 @@
+.Backgroundvideo{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.container {
+max-width: 400px;
+margin: 16vh auto;
+background-color:#f4fafa;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+color: #333;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 10px;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+}
+
+input[type="submit"]:hover {
+background-color: #45a049;
+}
+input[type="submit"] {
+background-color: #774caf;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+}
+
+input[type="submit"]:hover {
+background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+outline: none;
+}
+* {
+    box-sizing: border-box;
+  }
+  title{
+    color: #774caf;
+  }

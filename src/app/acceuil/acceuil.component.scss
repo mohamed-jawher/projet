@@ -1,0 +1,13 @@
+a {
+    margin: 0 10px;
+    color:grey;
+    text-decoration: none;
+    text-align: left;
+    &:hover {text-decoration: underline;}
+}
+.active {
+    color: #774caf;
+    text-decoration:underline;}
+    header{
+        background-color: grey;
+    }
